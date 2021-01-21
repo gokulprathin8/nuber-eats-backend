@@ -8,11 +8,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
+const config_1 = require("@nestjs/config");
+const graphql_1 = require("@nestjs/graphql");
+const typeorm_1 = require("@nestjs/typeorm");
+const restaurants_module_1 = require("./restaurants/restaurants.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [],
+        imports: [
+            config_1.ConfigModule.forRoot({
+                isGlobal: true,
+                envFilePath: ".env"
+            }),
+            graphql_1.GraphQLModule.forRoot({
+                autoSchemaFile: true,
+            }),
+            typeorm_1.TypeOrmModule.forRoot({
+                type: 'postgres',
+                host: 'localhost',
+                port: 5432,
+                username: 'postgres',
+                password: '1807',
+                database: 'nuber-eats',
+                synchronize: true,
+                logging: true,
+            }),
+            restaurants_module_1.RestaurantsModule,
+        ],
         controllers: [],
         providers: [],
     })
