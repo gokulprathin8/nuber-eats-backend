@@ -16,6 +16,7 @@ const restaurants_module_1 = require("./restaurants/restaurants.module");
 const restaurant_entity_1 = require("./restaurants/entities/restaurant.entity");
 const users_module_1 = require("./users/users.module");
 const user_entity_1 = require("./users/entities/user.entity");
+const jwt_module_1 = require("./jwt/jwt.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -50,6 +51,7 @@ AppModule = __decorate([
             }),
             restaurants_module_1.RestaurantsModule,
             users_module_1.UsersModule,
+            jwt_module_1.JwtModule,
         ],
         controllers: [],
         providers: [],
