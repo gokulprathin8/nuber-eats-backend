@@ -6,6 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { RestaurantsModule } from './restaurants/restaurants.module';
 import { Restaurant } from './restaurants/entities/restaurant.entity';
 import { UsersModule } from './users/users.module';
+import { User } from './users/entities/user.entity';
 
 @Module({
   imports: [
@@ -34,7 +35,7 @@ import { UsersModule } from './users/users.module';
       database: process.env.DB_NAME,
       synchronize: true,
       logging: true,
-      entities: [Restaurant]
+      entities: [User, Restaurant]
     }),
     RestaurantsModule,
     UsersModule,

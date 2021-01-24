@@ -15,6 +15,7 @@ const typeorm_1 = require("@nestjs/typeorm");
 const restaurants_module_1 = require("./restaurants/restaurants.module");
 const restaurant_entity_1 = require("./restaurants/entities/restaurant.entity");
 const users_module_1 = require("./users/users.module");
+const user_entity_1 = require("./users/entities/user.entity");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -45,7 +46,7 @@ AppModule = __decorate([
                 database: process.env.DB_NAME,
                 synchronize: true,
                 logging: true,
-                entities: [restaurant_entity_1.Restaurant]
+                entities: [user_entity_1.User, restaurant_entity_1.Restaurant]
             }),
             restaurants_module_1.RestaurantsModule,
             users_module_1.UsersModule,
