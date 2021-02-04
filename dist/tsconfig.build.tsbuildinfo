@@ -5777,57 +5777,62 @@
       },
       "../src/restaurants/entities/restaurant.entity.ts": {
         "version": "be2fc9ebb50bf633c8c03835488cca13e9f41bbac3ee170c50354a38915cdb47",
-        "signature": "062f0c14673bee7e1c9a53272f8895b1efee24d93024ad4d6bd97308f16dc7d0",
+        "signature": "48f79ade25c5173b43bfe60a9a46b7cc430511b3f83c51c429390642f23659dc",
         "affectsGlobalScope": false
       },
       "../src/restaurants/dto/create-restaurant.dto.ts": {
         "version": "3f8eb62efe517bf2c13f4521e2debc904a4544afff8847466f184f030ababd15",
-        "signature": "93a1c1eef3b2094dd768c5172176f60170a36845bb619bcb9c805f2a50b1c2b8",
+        "signature": "bf138c98db258bdc8836269f91895038fa5f2e8a87cb7e4759c96435bd57443a",
         "affectsGlobalScope": false
       },
       "../src/restaurants/dto/update-restaurant.dto.ts": {
         "version": "0caa10c5ce9af300e831f84a54d4183378915fb5e05fd2d0aa550a0599d029d3",
-        "signature": "d03ea5cfb9f2c234ee6185fd52ee222ab2ccb4d1c43069b1e5f40dea48197d7e",
+        "signature": "e44ae1dfe0a645acb0efdafb9e3131c9a88109ef46ae7c30fd0452843f5d2189",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.service.ts": {
-        "version": "a88b9d40ca3d837353e8de33645d85627d318994d2e14225fb8561f167a4a0e3",
-        "signature": "86b8a62ff9e6c4bd4c909a5a31a09cbe441629d67c790534279a21601909dfff",
+        "version": "20815b1261ee2233341a412febafd0cf19cacee5c546902e9c3afaaba00dba5c",
+        "signature": "733cc3659cbd1ac11dd5c9a43225c9d7dcbe7d77635d26bc2d1abd7ef0911e50",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.resolver.ts": {
         "version": "458c06f79d9aebc605c23c52bbc4c5387b31293aa59fb236f4c6a9932b715622",
-        "signature": "5fe4f61199c24f74ac6f79064dd1170da0d197c6b3af5c899dcb0e03e7d37342",
+        "signature": "dc74d2500dda11c7e5945935aef5df660a45286d39af34c39d8235e1fab19a23",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.module.ts": {
         "version": "d5849272444f456583613c80b1901c7abb0daf6cfc83bb7b05764bf8306e9b12",
-        "signature": "2b2fa1366408d38cdaf4f7af8d828eaa058a4a55f18e94781255ca2a623e1863",
+        "signature": "126108b45b72bbade3b5733fa6e1dbc34c5b76e6615d9ed0ba1c24ea9275fb35",
+        "affectsGlobalScope": false
+      },
+      "../src/jwt/jwt.service.ts": {
+        "version": "86e863686fd9d7fcafc21400c1d2b3667f98a7079af1d262f34928d3b6bf203a",
+        "signature": "fba3bd5d5cd6f5ed7559f5eb9e2b2c8d7b77f64ee70330249310c63b5b18e20f",
         "affectsGlobalScope": false
       },
       "../src/common/entities/core.entity.ts": {
         "version": "cdfd78063b04f06b55847c1b7d6a00a7519bb59b1b633298a0ec0ff2d6a24db5",
-        "signature": "be9c6a6433444bfa31113a4d6e853f73d6ee50c386f8078b66719156bc073769",
+        "signature": "330a671c81525c627aa660f3f2e1a51cb4aabc4faeb3209dca0b830aea762d35",
         "affectsGlobalScope": false
       },
       "../src/users/entities/user.entity.ts": {
         "version": "17c72cb9b3ffcddf276a47bb488431c39593962db6d59e7aa14af6231b2ac029",
-        "signature": "d0614e7197cc2779dba97613c703c69955c180061fccbec3d93e91d73e672344",
+        "signature": "3bf03e384f75be055a79cd45b27acd33cbe78a252d388064ea5d52c666f708b0",
         "affectsGlobalScope": false
       },
       "../src/common/dtos/output.dto.ts": {
         "version": "cc22f650f6a5208457a4150ad49510638c54b85cf5932a675448401ba555334d",
-        "signature": "89ce4fbaa5b2c58d936c35cbcfe5f2a96afb167dec64dd514b5ab70658a78bb6",
+        "signature": "5a8c143ad0266115369e2c16e4cf89f2972ccb6ad8779760ab22f6a7ae8dd5bf",
         "affectsGlobalScope": false
       },
       "../src/users/dto/create-account.dto.ts": {
         "version": "0af2b28b3834abf7c461279e545aea2a789987932508c75ee3b49f755a636b89",
-        "signature": "dd53c705bb7f97633b64b98d96e78b1f1fefe2c02a18d81d344efe35a9c62669",
+        "signature": "c05a08cca4f2b5632c11475a664206f44bcc611703aa8f9eeb36c8845ff3e1e4",
         "affectsGlobalScope": false
       },
       "../src/users/dto/login.dto.ts": {
         "version": "7e9e0cf06c3b5f180c256b0660dd52a4eeaa98cc56126a6e8fbd48b4cd022eb6",
-        "signature": "700914db62e6c8ee82bcfd175b8c8e497e53b01076abccbf608fb03434757f9c",
+        "signature": "f82579de3ed3aa77ea4af5390c4100a5665f3e0bacc7f327f47173e9e87a0f55",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -5836,8 +5841,8 @@
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "88b8580793554b8d5bc515c8339d25bccb9e29b800a0dd13f25c018551602335",
-        "signature": "d03f926a012629a27a97d6c85bd8c892ab77ba6649804ac037d5ba800aa637a5",
+        "version": "1b8a4e617d110bed61e79ef1cd81223ef9c14400906d6e338ae72d41cbd27f7c",
+        "signature": "7f4f6da159ed4001cdeedc80cf580fc22a826ab41edd7097ec7ddeee9afd16e1",
         "affectsGlobalScope": false
       },
       "../src/users/users.resolver.ts": {
@@ -5846,17 +5851,17 @@
         "affectsGlobalScope": false
       },
       "../src/users/users.module.ts": {
-        "version": "e5eca9ade320e829dc96441e7ddc84dfa0a7bf5464be99db0004e37469634ab9",
+        "version": "2b3cc0c6dc86c4256ac57d2b33f83a4c4f440e1cccf538dc00f8f6d5fe6ec834",
         "signature": "12dec6c99bd8d11167fa91a31e737abbbf8c9cc789c151a25a9a1d13f328175c",
         "affectsGlobalScope": false
       },
       "../src/jwt/jwt.module.ts": {
-        "version": "456b4c269d4151bbc99f57131958542095c7b7344c0651412808a0c29a530fc0",
-        "signature": "4d5b97fb87d23339711c3e8d27a770f67ba4895c1a1e4a875e6bac1ba28332de",
+        "version": "3e6ebb57e9e1d00de95d1a9c3ee8714487969ecb41fa9e67834f0a7ead753780",
+        "signature": "b9a494d27d6058c2c3831d1c0a3e98c9e3a94256a57cc62627c35a7f9c147b3a",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "b4f74a8847766295798842d4329f52fb82efcd2999615fb5232f22f3400ddd83",
+        "version": "c895cb023c6b1610539e8d5866734cb3762b781c0e4380ebd56d0845884ea410",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -11023,6 +11028,10 @@
         "../node_modules/typeorm/index.d.ts"
       ],
       "../src/jwt/jwt.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/jwt/jwt.service.ts"
+      ],
+      "../src/jwt/jwt.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/main.ts": [
@@ -11088,6 +11097,7 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/jwt/jwt.service.ts",
         "../src/users/entities/user.entity.ts",
         "../src/users/users.resolver.ts",
         "../src/users/users.service.ts"
@@ -11105,6 +11115,7 @@
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/@types/jsonwebtoken/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
+        "../src/jwt/jwt.service.ts",
         "../src/users/dto/create-account.dto.ts",
         "../src/users/dto/login.dto.ts",
         "../src/users/entities/user.entity.ts"
@@ -15925,6 +15936,9 @@
       "../node_modules/zen-observable-ts/lib/zenobservable.d.ts": [
         "../node_modules/zen-observable-ts/lib/types.d.ts"
       ],
+      "../src/jwt/jwt.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/restaurants/dto/create-restaurant.dto.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/restaurants/entities/restaurant.entity.ts"
@@ -15966,6 +15980,7 @@
       "../src/users/users.service.ts": [
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
+        "../src/jwt/jwt.service.ts",
         "../src/users/dto/create-account.dto.ts",
         "../src/users/dto/login.dto.ts",
         "../src/users/entities/user.entity.ts"
@@ -17193,6 +17208,7 @@
       "../src/common/dtos/output.dto.ts",
       "../src/common/entities/core.entity.ts",
       "../src/jwt/jwt.module.ts",
+      "../src/jwt/jwt.service.ts",
       "../src/main.ts",
       "../src/restaurants/dto/create-restaurant.dto.ts",
       "../src/restaurants/dto/update-restaurant.dto.ts",

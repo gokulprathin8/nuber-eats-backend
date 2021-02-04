@@ -22,7 +22,7 @@ import { JwtModule } from './jwt/jwt.module';
         DB_USERNAME: Joi.string().required(),
         DB_PASSWORD: Joi.string().required(),
         DB_NAME: Joi.string().required(),
-      })
+      }),
     }),
     GraphQLModule.forRoot({
       autoSchemaFile: true,
@@ -36,11 +36,11 @@ import { JwtModule } from './jwt/jwt.module';
       database: process.env.DB_NAME,
       synchronize: true,
       logging: true,
-      entities: [User, Restaurant]
+      entities: [User, Restaurant],
     }),
     RestaurantsModule,
     UsersModule,
-    JwtModule,
+    JwtModule.forRoot(),
   ],
   controllers: [],
   providers: [],

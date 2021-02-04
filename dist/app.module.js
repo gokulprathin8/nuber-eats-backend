@@ -33,7 +33,7 @@ AppModule = __decorate([
                     DB_USERNAME: Joi.string().required(),
                     DB_PASSWORD: Joi.string().required(),
                     DB_NAME: Joi.string().required(),
-                })
+                }),
             }),
             graphql_1.GraphQLModule.forRoot({
                 autoSchemaFile: true,
@@ -47,11 +47,11 @@ AppModule = __decorate([
                 database: process.env.DB_NAME,
                 synchronize: true,
                 logging: true,
-                entities: [user_entity_1.User, restaurant_entity_1.Restaurant]
+                entities: [user_entity_1.User, restaurant_entity_1.Restaurant],
             }),
             restaurants_module_1.RestaurantsModule,
             users_module_1.UsersModule,
-            jwt_module_1.JwtModule,
+            jwt_module_1.JwtModule.forRoot(),
         ],
         controllers: [],
         providers: [],
