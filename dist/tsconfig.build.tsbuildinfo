@@ -5805,9 +5805,24 @@
         "signature": "126108b45b72bbade3b5733fa6e1dbc34c5b76e6615d9ed0ba1c24ea9275fb35",
         "affectsGlobalScope": false
       },
+      "../node_modules/@types/jsonwebtoken/index.d.ts": {
+        "version": "f67c920eba6ab8e4558cb9ab661d900188f101c5657e19b1e15829a1d491d46e",
+        "signature": "f67c920eba6ab8e4558cb9ab661d900188f101c5657e19b1e15829a1d491d46e",
+        "affectsGlobalScope": false
+      },
+      "../src/jwt/jwt.constants.ts": {
+        "version": "d7e58391bd7545842355a966c039a089d9689dc7d10e134e46bbfae5651716b3",
+        "signature": "634af23379c3bd8e1b3337d786f25171a96f7f7c9fcd01d241b1cade98b69d49",
+        "affectsGlobalScope": false
+      },
+      "../src/jwt/jwt.interfaces.ts": {
+        "version": "af9db64b18d460836af433221484b0ef4c00023651cdd16d70b0263cd4bc119f",
+        "signature": "f373e43347584427a5838d88a67ec90609cdfc213205c8800f274fc386039500",
+        "affectsGlobalScope": false
+      },
       "../src/jwt/jwt.service.ts": {
-        "version": "86e863686fd9d7fcafc21400c1d2b3667f98a7079af1d262f34928d3b6bf203a",
-        "signature": "fba3bd5d5cd6f5ed7559f5eb9e2b2c8d7b77f64ee70330249310c63b5b18e20f",
+        "version": "2ae2d8636f3e27878828c8cceff0fb37a4bfdf121b4ea4278cf4b702e433f282",
+        "signature": "a07f2e907d3f5ecba28f657104d099f0174cf06858277ae921bef390fe2939b9",
         "affectsGlobalScope": false
       },
       "../src/common/entities/core.entity.ts": {
@@ -5835,14 +5850,9 @@
         "signature": "f82579de3ed3aa77ea4af5390c4100a5665f3e0bacc7f327f47173e9e87a0f55",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/jsonwebtoken/index.d.ts": {
-        "version": "f67c920eba6ab8e4558cb9ab661d900188f101c5657e19b1e15829a1d491d46e",
-        "signature": "f67c920eba6ab8e4558cb9ab661d900188f101c5657e19b1e15829a1d491d46e",
-        "affectsGlobalScope": false
-      },
       "../src/users/users.service.ts": {
-        "version": "1b8a4e617d110bed61e79ef1cd81223ef9c14400906d6e338ae72d41cbd27f7c",
-        "signature": "7f4f6da159ed4001cdeedc80cf580fc22a826ab41edd7097ec7ddeee9afd16e1",
+        "version": "1cfa48c32f609d8d1bc6c1a3313a9f789bcced0e65f9a86fb92dee3019869c91",
+        "signature": "779ee721f9a13c78e9b646a612612ee843d9da2f171e33ffe4c5fae1bd449108",
         "affectsGlobalScope": false
       },
       "../src/users/users.resolver.ts": {
@@ -5856,12 +5866,12 @@
         "affectsGlobalScope": false
       },
       "../src/jwt/jwt.module.ts": {
-        "version": "3e6ebb57e9e1d00de95d1a9c3ee8714487969ecb41fa9e67834f0a7ead753780",
-        "signature": "b9a494d27d6058c2c3831d1c0a3e98c9e3a94256a57cc62627c35a7f9c147b3a",
+        "version": "8344bea44b0e61f1e7c07115ec74e1b7e86c61cf6b2ffb45ac5f1d54629470a4",
+        "signature": "a12ad1f714a66bc1281836c18a3121f4b0bed4a9c18ac227ba77891836d291f5",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "c895cb023c6b1610539e8d5866734cb3762b781c0e4380ebd56d0845884ea410",
+        "version": "076b1d742f04f88f063224c8734c4b48965afaa193d93a26e74d717ef058c7fd",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -11029,10 +11039,16 @@
       ],
       "../src/jwt/jwt.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/jwt/jwt.constants.ts",
+        "../src/jwt/jwt.interfaces.ts",
         "../src/jwt/jwt.service.ts"
       ],
       "../src/jwt/jwt.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/config/index.d.ts",
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../src/jwt/jwt.constants.ts",
+        "../src/jwt/jwt.interfaces.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -15937,7 +15953,11 @@
         "../node_modules/zen-observable-ts/lib/types.d.ts"
       ],
       "../src/jwt/jwt.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/jwt/jwt.interfaces.ts"
+      ],
+      "../src/jwt/jwt.service.ts": [
+        "../node_modules/@nestjs/config/index.d.ts"
       ],
       "../src/restaurants/dto/create-restaurant.dto.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -15978,7 +15998,6 @@
         "../src/users/users.service.ts"
       ],
       "../src/users/users.service.ts": [
-        "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/jwt/jwt.service.ts",
         "../src/users/dto/create-account.dto.ts",
@@ -17207,6 +17226,8 @@
       "../src/app.module.ts",
       "../src/common/dtos/output.dto.ts",
       "../src/common/entities/core.entity.ts",
+      "../src/jwt/jwt.constants.ts",
+      "../src/jwt/jwt.interfaces.ts",
       "../src/jwt/jwt.module.ts",
       "../src/jwt/jwt.service.ts",
       "../src/main.ts",

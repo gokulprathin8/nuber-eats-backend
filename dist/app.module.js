@@ -51,7 +51,9 @@ AppModule = __decorate([
             }),
             restaurants_module_1.RestaurantsModule,
             users_module_1.UsersModule,
-            jwt_module_1.JwtModule.forRoot(),
+            jwt_module_1.JwtModule.forRoot({
+                privateKey: process.env.PRIVATE_KEY,
+            }),
         ],
         controllers: [],
         providers: [],
