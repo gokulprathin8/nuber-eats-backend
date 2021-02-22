@@ -52,7 +52,7 @@ export class UsersService {
           token: null,
         };
       }
-      const token = this.jwtService.sign({ id: user.id });
+      const token = this.jwtService.sign(user.id);
       return {
         ok: true,
         token: token,
@@ -65,5 +65,9 @@ export class UsersService {
         error: error,
       };
     }
+  }
+
+  async findUserById(id: number) {
+    return this.user.findOne({ id: id });
   }
 }

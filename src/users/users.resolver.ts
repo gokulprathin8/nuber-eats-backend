@@ -46,4 +46,7 @@ export class UserResolver {
       };
     } catch (error) {}
   }
+
+  @Query((returns) => Boolean)
+  me() {}
 }

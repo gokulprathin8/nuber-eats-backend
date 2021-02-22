@@ -8,7 +8,11 @@ import { ConfigService } from '@nestjs/config';
 export class JwtService {
   constructor(private readonly configService: ConfigService) {}
 
-  sign(payload: object): string {
-    return jwt.sign(payload, this.configService.get('PRIVATE_KEY'));
+  sign(userId: number): string {
+    return jwt.sign({ id: userId }, this.configService.get('PRIVATE_KEY'));
+  }
+
+  verify(token: string) {
+    return jwt.verify(token, this.configService.get('PRIVATE_KEY'));
   }
 }

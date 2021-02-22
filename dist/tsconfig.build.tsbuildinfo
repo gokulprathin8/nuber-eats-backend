@@ -5777,32 +5777,32 @@
       },
       "../src/restaurants/entities/restaurant.entity.ts": {
         "version": "be2fc9ebb50bf633c8c03835488cca13e9f41bbac3ee170c50354a38915cdb47",
-        "signature": "48f79ade25c5173b43bfe60a9a46b7cc430511b3f83c51c429390642f23659dc",
+        "signature": "062f0c14673bee7e1c9a53272f8895b1efee24d93024ad4d6bd97308f16dc7d0",
         "affectsGlobalScope": false
       },
       "../src/restaurants/dto/create-restaurant.dto.ts": {
         "version": "3f8eb62efe517bf2c13f4521e2debc904a4544afff8847466f184f030ababd15",
-        "signature": "bf138c98db258bdc8836269f91895038fa5f2e8a87cb7e4759c96435bd57443a",
+        "signature": "93a1c1eef3b2094dd768c5172176f60170a36845bb619bcb9c805f2a50b1c2b8",
         "affectsGlobalScope": false
       },
       "../src/restaurants/dto/update-restaurant.dto.ts": {
         "version": "0caa10c5ce9af300e831f84a54d4183378915fb5e05fd2d0aa550a0599d029d3",
-        "signature": "e44ae1dfe0a645acb0efdafb9e3131c9a88109ef46ae7c30fd0452843f5d2189",
+        "signature": "d03ea5cfb9f2c234ee6185fd52ee222ab2ccb4d1c43069b1e5f40dea48197d7e",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.service.ts": {
         "version": "20815b1261ee2233341a412febafd0cf19cacee5c546902e9c3afaaba00dba5c",
-        "signature": "733cc3659cbd1ac11dd5c9a43225c9d7dcbe7d77635d26bc2d1abd7ef0911e50",
+        "signature": "0900270bd2edc98e1843b2355d9256f552f51548201dfa8c35b0977e3265f114",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.resolver.ts": {
         "version": "458c06f79d9aebc605c23c52bbc4c5387b31293aa59fb236f4c6a9932b715622",
-        "signature": "dc74d2500dda11c7e5945935aef5df660a45286d39af34c39d8235e1fab19a23",
+        "signature": "5fe4f61199c24f74ac6f79064dd1170da0d197c6b3af5c899dcb0e03e7d37342",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.module.ts": {
         "version": "d5849272444f456583613c80b1901c7abb0daf6cfc83bb7b05764bf8306e9b12",
-        "signature": "126108b45b72bbade3b5733fa6e1dbc34c5b76e6615d9ed0ba1c24ea9275fb35",
+        "signature": "2b2fa1366408d38cdaf4f7af8d828eaa058a4a55f18e94781255ca2a623e1863",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -5821,43 +5821,43 @@
         "affectsGlobalScope": false
       },
       "../src/jwt/jwt.service.ts": {
-        "version": "2ae2d8636f3e27878828c8cceff0fb37a4bfdf121b4ea4278cf4b702e433f282",
-        "signature": "a07f2e907d3f5ecba28f657104d099f0174cf06858277ae921bef390fe2939b9",
+        "version": "f388d59d76e373f8d69351506de434286645aa71342c7335dd8c2c919cc69b64",
+        "signature": "3952142c5ced4fe9649d58c886c2d21994e360b092a93a341628cdd29b3f3592",
         "affectsGlobalScope": false
       },
       "../src/common/entities/core.entity.ts": {
         "version": "cdfd78063b04f06b55847c1b7d6a00a7519bb59b1b633298a0ec0ff2d6a24db5",
-        "signature": "330a671c81525c627aa660f3f2e1a51cb4aabc4faeb3209dca0b830aea762d35",
+        "signature": "be9c6a6433444bfa31113a4d6e853f73d6ee50c386f8078b66719156bc073769",
         "affectsGlobalScope": false
       },
       "../src/users/entities/user.entity.ts": {
         "version": "17c72cb9b3ffcddf276a47bb488431c39593962db6d59e7aa14af6231b2ac029",
-        "signature": "3bf03e384f75be055a79cd45b27acd33cbe78a252d388064ea5d52c666f708b0",
+        "signature": "d0614e7197cc2779dba97613c703c69955c180061fccbec3d93e91d73e672344",
         "affectsGlobalScope": false
       },
       "../src/common/dtos/output.dto.ts": {
         "version": "cc22f650f6a5208457a4150ad49510638c54b85cf5932a675448401ba555334d",
-        "signature": "5a8c143ad0266115369e2c16e4cf89f2972ccb6ad8779760ab22f6a7ae8dd5bf",
+        "signature": "89ce4fbaa5b2c58d936c35cbcfe5f2a96afb167dec64dd514b5ab70658a78bb6",
         "affectsGlobalScope": false
       },
       "../src/users/dto/create-account.dto.ts": {
         "version": "0af2b28b3834abf7c461279e545aea2a789987932508c75ee3b49f755a636b89",
-        "signature": "c05a08cca4f2b5632c11475a664206f44bcc611703aa8f9eeb36c8845ff3e1e4",
+        "signature": "d0a4f62b463f082e295522090797fc101a0b90001802f191ee0770ad9833c4bf",
         "affectsGlobalScope": false
       },
       "../src/users/dto/login.dto.ts": {
         "version": "7e9e0cf06c3b5f180c256b0660dd52a4eeaa98cc56126a6e8fbd48b4cd022eb6",
-        "signature": "f82579de3ed3aa77ea4af5390c4100a5665f3e0bacc7f327f47173e9e87a0f55",
+        "signature": "e276512b44b46f4c12e592d1385319cb7f038cc604cabcc952d9a9b76687c2d3",
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "1cfa48c32f609d8d1bc6c1a3313a9f789bcced0e65f9a86fb92dee3019869c91",
-        "signature": "779ee721f9a13c78e9b646a612612ee843d9da2f171e33ffe4c5fae1bd449108",
+        "version": "56ddd85a972582ba449e9f166117407d728390db38b20d72bfb125e7d8716690",
+        "signature": "c7458cec83c07de871a27beaf66a5a38e866eb7614c84344272fe6bb529960ef",
         "affectsGlobalScope": false
       },
       "../src/users/users.resolver.ts": {
-        "version": "3535f0120e112f127619fd3f54a4e6d56c7e4adcda5331264c5eeb799a83b60b",
-        "signature": "7e180c0c3d80e7804b2f094f3cdfa8e34736a2e7f1d5f817a8c6557e23b9d8b1",
+        "version": "af5b4733716ff239fae97a95193118bda1256c8a1658478d0eb8f3b8ea122289",
+        "signature": "e2c3c3e350c94c394e4b737bebf7942411733863644da364bfe27fbb13e77017",
         "affectsGlobalScope": false
       },
       "../src/users/users.module.ts": {
@@ -5870,9 +5870,14 @@
         "signature": "a12ad1f714a66bc1281836c18a3121f4b0bed4a9c18ac227ba77891836d291f5",
         "affectsGlobalScope": false
       },
+      "../src/jwt/jwt.middleware.ts": {
+        "version": "2dc3906d23032e4cf3cb11b36fce3a4e483e6e5066f75d2ab42b7e97eb8dffa0",
+        "signature": "7303c1b9b91f6fa1a51ee2ec3464d76c7a5b0c66cef5e96c2e24a374e40e1b9a",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "076b1d742f04f88f063224c8734c4b48965afaa193d93a26e74d717ef058c7fd",
-        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
+        "version": "3e1c9cc22c0b4c1118beb57d6279c63377d75f8cfc440fc3d6dd91eb77bc9129",
+        "signature": "9f78b3626b7b799cfce54f8a459a432584054fe4fe823f7a21cc91fb950c4c10",
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
@@ -11024,6 +11029,7 @@
         "../node_modules/@nestjs/graphql/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/joi/lib/index.d.ts",
+        "../src/jwt/jwt.middleware.ts",
         "../src/jwt/jwt.module.ts",
         "../src/restaurants/entities/restaurant.entity.ts",
         "../src/restaurants/restaurants.module.ts",
@@ -11036,6 +11042,11 @@
       "../src/common/entities/core.entity.ts": [
         "../node_modules/@nestjs/graphql/index.d.ts",
         "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/jwt/jwt.middleware.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/express/index.d.ts",
+        "../src/jwt/jwt.service.ts"
       ],
       "../src/jwt/jwt.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -15952,6 +15963,14 @@
       "../node_modules/zen-observable-ts/lib/zenobservable.d.ts": [
         "../node_modules/zen-observable-ts/lib/types.d.ts"
       ],
+      "../src/app.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/jwt/jwt.middleware.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/express/index.d.ts",
+        "../src/jwt/jwt.service.ts"
+      ],
       "../src/jwt/jwt.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/jwt/jwt.interfaces.ts"
@@ -17228,6 +17247,7 @@
       "../src/common/entities/core.entity.ts",
       "../src/jwt/jwt.constants.ts",
       "../src/jwt/jwt.interfaces.ts",
+      "../src/jwt/jwt.middleware.ts",
       "../src/jwt/jwt.module.ts",
       "../src/jwt/jwt.service.ts",
       "../src/main.ts",
